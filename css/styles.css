@@ -1,0 +1,190 @@
+body {
+  text-align: center;
+  margin: 0;
+}
+
+/*////////////////////////////////////////// Top Section ??????????????????????????????????????????????  */
+.top-container {
+  /* The image used */
+  background-image: url("https://cdn.pixabay.com/photo/2016/11/22/18/52/cake-1850011_960_720.jpg");
+  /* Set a specific height */
+  min-height: 42rem;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.welcome-text {
+  margin: 0 auto;
+  padding-top: 13rem;
+  color: #F9F7F7;
+  font-size: 50px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+}
+
+.welcome-text-second {
+  padding: 3rem;
+  color: #FCBAD3;
+  font-size: 35px;
+  font-family: 'Sacramento', cursive;
+}
+
+/* //////////////////////////////////////////Brief Introduction////////////////////////////////////////////// */
+.brief-intro {
+  height: 14rem;
+  width: 100%;
+  background-color: #B83B5E;
+  font-family: 'Poppins', sans-serif;
+}
+
+.brief-intro-grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 15px 40px;
+}
+
+.brief-intro-text {
+  margin: 0;
+  padding-top: 2.5rem;
+  color: #FF94CC;
+  font-size: 28px;
+}
+
+.breif-intro-description {
+  color: #F9F7F7;
+}
+
+/* ///////////////////////////////////////////////Middle Container/////////////////////////////////////////// */
+.middle-container {
+  height: 37rem;
+  width: 100%;
+  background-color: #FFF6CD;
+}
+
+.menu {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 50px 150px 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.menu-item {
+  height: 490px;
+  width: 300px;
+  background-color: #AC66CC;
+  margin: 0 auto;
+}
+
+.item-pic {
+  height: 200px;
+  width: 300px;
+}
+
+.menu-heading {
+  color: #F9F7F7;
+}
+
+.menu-text {
+  line-height: 2;
+  padding: 0 30px 0;
+  color: #F9F7F7;
+}
+
+/* ///////////////////////////////////////Catering Option////////////////////////////////////////// */
+
+.catering-section{
+  /* The image used */
+  background-image: url("https://cdn.pixabay.com/photo/2015/12/08/00/42/cupcakes-1081963_960_720.jpg");
+  /* Set a specific height */
+  min-height: 19rem;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Poppins', sans-serif;
+}
+
+.catering-heading{
+  margin-top: 0;
+  padding-top: 70px;
+  color: #F9F7F7;
+}
+
+.catering-text{
+  font-size: 17px;
+  color: #F9F7F7;
+  padding: 15px 110px 0;
+}
+
+
+/* ///////////////////////////////////////////Team Intro////////////////////////////////////////// */
+
+.team{
+  width: 100%;
+  height: 50rem;
+  background-color: #B83B5E;
+  font-family: 'Poppins', sans-serif;
+  color: #F9F7F7;
+}
+
+.team-head{
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+.bio{
+  text-align: left;
+  padding: 5rem 17rem;
+  line-height: 2;
+}
+
+.anas-img{
+  width: 12.5rem;
+  float: left;
+  padding-right: 25px;
+}
+
+.bakker-img{
+  width: 12.5rem;
+  float: right;
+}
+
+/* //////////////////////////////////////////////footer section//////////////////////////////////// */
+
+.footer{
+height: 16rem;
+width: 100%;
+background-color: #F08A5D;
+padding-top: 2rem;
+font-family: 'Poppins', sans-serif;
+color: #F9F7F7;
+}
+
+.myButton {
+	background-color:#44c767;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.myButton:hover {
+	background-color:#5cbf2a;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.footer-icons{
+  padding: 42px 7px 5px;
+}
